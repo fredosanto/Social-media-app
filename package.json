@@ -1,0 +1,28 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "This is a course assignment at Noroff were the task was to build a responsive front end for a social media application using our knowledge of Bootstrap and SASS.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredosanto/Social-media-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredosanto/Social-media-app/issues"
+  },
+  "homepage": "https://github.com/fredosanto/Social-media-app#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
