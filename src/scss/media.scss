@@ -1,0 +1,9 @@
+@import "index";
+@import "login";
+@import "profile";
+
+@media screen and (max-width: 576px) {
+  .login-form {
+    padding: 20px;
+  }
+}

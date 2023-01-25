@@ -10835,4 +10835,17 @@ nav {
   max-width: 500px;
 }
 
-/*# sourceMappingURL=index.css.map */
+.logo {
+  font-size: 5rem;
+}
+
+.login-form {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.forgot-password {
+  max-width: 500px;
+}
+
+/*# sourceMappingURL=login.css.map */

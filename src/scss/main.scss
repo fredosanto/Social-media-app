@@ -1,46 +1,53 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+body {
+  font-family: $main-font;
+}
+
 .bi {
   color: $nav-text-color;
 }
 
-body {
-  background-color: $main-bg-color;
-}
-
 nav {
-  background-color: $nav-bg-color;
-  color: $nav-link-color;
+  //   background-color: $nav-bg-color;
+  //   color: $nav-link-color;
+  width: 100%;
+  margin: 0;
 }
 
-// .nav-container {
-//   margin: auto 100px;
-//   color: $nav-link-color;
-// }
+.navigation {
+  width: 100%;
+}
 
 .nav-link {
-  color: $nav-text-color;
+  color: $primary;
+  text-transform: uppercase;
+  font-family: $header-font;
+  font-size: 1.5rem;
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: $nav-text-color;
-    text-decoration: if($link-hover-decoration == underline, none, null);
   }
 }
 
+.onpage {
+  text-decoration: underline;
+}
+
 .logo {
-  color: $main-color;
+  color: $primary;
   font-family: $logo-font;
-  font-size: 46px;
+  font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $nav-text-color;
+  }
 }
 
-.navbar-brand {
-  color: $main-color;
-  font-family: $logo-font;
-  font-size: 46px;
-}
-
-.navbar-toggler {
-  backgroundcolor: $nav-text-color;
+.search-field {
+  width: 50%;
+  max-width: 500px;
 }
