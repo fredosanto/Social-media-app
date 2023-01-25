@@ -10835,4 +10835,14 @@ nav {
   max-width: 500px;
 }
 
+.profile-nav {
+  max-width: 954px;
+  text-align: center;
+}
+
+.profile-header {
+  max-width: 954px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=profile.css.map */

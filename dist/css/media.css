@@ -32520,6 +32520,16 @@ nav {
   max-width: 500px;
 }
 
+.profile-nav {
+  max-width: 954px;
+  text-align: center;
+}
+
+.profile-header {
+  max-width: 954px;
+  text-align: center;
+}
+
 @media screen and (max-width: 576px) {
   .login-form {
     padding: 20px;
