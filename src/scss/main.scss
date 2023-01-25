@@ -1,7 +1,46 @@
+@import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-$main: lightgrey;
+.bi {
+  color: $nav-text-color;
+}
 
 body {
-  background-color: $main;
+  background-color: $main-bg-color;
+}
+
+nav {
+  background-color: $nav-bg-color;
+  color: $nav-link-color;
+}
+
+// .nav-container {
+//   margin: auto 100px;
+//   color: $nav-link-color;
+// }
+
+.nav-link {
+  color: $nav-text-color;
+
+  &:hover,
+  &:focus {
+    color: $nav-text-color;
+    text-decoration: if($link-hover-decoration == underline, none, null);
+  }
+}
+
+.logo {
+  color: $main-color;
+  font-family: $logo-font;
+  font-size: 46px;
+}
+
+.navbar-brand {
+  color: $main-color;
+  font-family: $logo-font;
+  font-size: 46px;
+}
+
+.navbar-toggler {
+  backgroundcolor: $nav-text-color;
 }
