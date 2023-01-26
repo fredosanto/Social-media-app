@@ -16,6 +16,11 @@ input {
   font-family: "Comfortaa";
 }
 
+.bi {
+  color: #aaaaaa;
+  width: 20px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

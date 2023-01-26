@@ -16,6 +16,11 @@ input {
   font-family: "Comfortaa";
 }
 
+.bi {
+  color: #aaaaaa;
+  width: 20px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10850,6 +10855,11 @@ a,
 label,
 input {
   font-family: "Comfortaa";
+}
+
+.bi {
+  color: #aaaaaa;
+  width: 20px;
 }
 
 /*!
@@ -21701,6 +21711,11 @@ input {
   font-family: "Comfortaa";
 }
 
+.bi {
+  color: #aaaaaa;
+  width: 20px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -32549,15 +32564,22 @@ nav {
   max-width: 954px;
 }
 
-.profile-about,
-.profile-contacts {
-  background-color: grey;
-}
-
 .about,
 .contacts {
   width: 467px;
   background-color: blue;
+}
+
+.about h2, .about .h2,
+.contacts h2,
+.contacts .h2 {
+  font-size: 1.5rem;
+}
+
+.bi {
+  color: #aaaaaa;
+  display: inline-block;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 576px) {

@@ -31,15 +31,19 @@
   max-width: 954px;
 }
 
-.profile-about,
-.profile-contacts {
-  // background-color: yellow;
-  // width: 50%;
-  background-color: grey;
-}
-
 .about,
 .contacts {
   width: 467px;
   background-color: blue;
+}
+
+.about h2,
+.contacts h2 {
+  font-size: 1.5rem;
+}
+
+.bi {
+  color: $secondary;
+  display: inline-block;
+  font-size: 25px;
 }
