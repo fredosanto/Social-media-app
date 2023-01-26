@@ -9,3 +9,37 @@
   max-width: 954px;
   text-align: center;
 }
+
+.profile-picture {
+  width: 250px;
+  height: 250px;
+}
+
+.profile-name {
+  font-family: $header-font;
+  font-size: 2.25rem;
+}
+
+.profile-username {
+  font-family: $main-font;
+  font-size: 1.5rem;
+}
+
+///Section
+
+.profile-section {
+  max-width: 954px;
+}
+
+.profile-about,
+.profile-contacts {
+  // background-color: yellow;
+  // width: 50%;
+  background-color: grey;
+}
+
+.about,
+.contacts {
+  width: 467px;
+  background-color: blue;
+}

@@ -32530,9 +32530,45 @@ nav {
   text-align: center;
 }
 
+.profile-picture {
+  width: 250px;
+  height: 250px;
+}
+
+.profile-name {
+  font-family: "Secular One";
+  font-size: 2.25rem;
+}
+
+.profile-username {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+}
+
+.profile-section {
+  max-width: 954px;
+}
+
+.profile-about,
+.profile-contacts {
+  background-color: grey;
+}
+
+.about,
+.contacts {
+  width: 467px;
+  background-color: blue;
+}
+
 @media screen and (max-width: 576px) {
   .login-form {
     padding: 20px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .about,
+  .contacts {
+    width: 100%;
   }
 }
 
