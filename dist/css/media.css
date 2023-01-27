@@ -32575,6 +32575,10 @@ nav {
   border: 2px solid #f0f0f0;
 }
 
+.view-more {
+  display: block;
+}
+
 .profile-post-section {
   width: 954px;
 }
