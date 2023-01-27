@@ -64,7 +64,9 @@
       </nav>
     </header>
     <main class="text-center mt-5">
-      <div class="profile-nav d-flex m-auto justify-content-between">
+      <div
+        class="profile-nav d-flex m-auto justify-content-between align-items-center"
+      >
         <div class="flex-">
           <h1 class="">Profile</h1>
         </div>
@@ -83,9 +85,9 @@
           </p>
         </div>
       </div>
-      <section class="profile-section mx-auto my-4">
-        <div class="d-flex flex-wrap justify-content-between">
-          <div class="text-start about bg-light p-3">
+      <section class="profile-section mx-auto my-5">
+        <div class="d-flex profile-flex flex-wrap justify-content-between">
+          <div class="text-start about bg-light p-3 shadow-lg">
             <div class="d-flex justify-content-between">
               <h2 class="mb-3">About</h2>
               <button class="btn btn-secondary">Edit</button>
@@ -100,21 +102,86 @@
             </div>
             <div class="d-flex align-items-center">
               <i class="bi bi-mortarboard-fill mb-3"></i>
-              <p class="ps-3">No education</p>
+              <p class="ps-3">-</p>
             </div>
             <div class="d-flex align-items-center">
               <i class="bi bi-envelope-at-fill mb-3"></i>
-              <p class="ps-3">No email</p>
+              <p class="ps-3">bricktamland@anchorman.com</p>
             </div>
             <div class="d-flex align-items-center">
               <i class="bi bi-globe mb-3"></i>
-              <p class="ps-3">No homepage</p>
+              <p class="ps-3">-</p>
             </div>
           </div>
-          <div class="text-start contacts bg-light p-3">
+          <div class="text-start contacts bg-light p-3 shadow-lg">
             <h2 class="mb-3">Contacts</h2>
+            <div class="contacts-list">
+              <div
+                class="d-flex contact justify-content-between align-items-center p-2 mb-3 shadow-sm"
+              >
+                <a href="#" class="contacts-link">
+                  <div class="d-flex align-items-center p-2">
+                    <div class="contact-picture bg-secondary rounded-5"></div>
+                    <div
+                      class="d-flex flex-column contact-name_container my-auto p-3"
+                    >
+                      <p class="contact-name m-0">Ron Burgundy</p>
+                      <p class="contact-username text-secondary m-0">
+                        @RonTheAnchorman
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <button class="contact-btn btn btn-primary btn-sm">
+                  Message
+                </button>
+              </div>
+              <div
+                class="d-flex contact justify-content-between align-items-center p-2 mb-3 shadow-sm"
+              >
+                <a href="#" class="contacts-link">
+                  <div class="d-flex align-items-center p-2">
+                    <div class="contact-picture bg-secondary rounded-5"></div>
+                    <div
+                      class="d-flex flex-column contact-name_container my-auto p-3"
+                    >
+                      <p class="contact-name m-0">Brian Fantana</p>
+                      <p class="contact-username text-secondary m-0">
+                        @brianAlsoAnchorman
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <button class="contact-btn btn btn-primary btn-sm">
+                  Message
+                </button>
+              </div>
+              <div
+                class="d-flex contact justify-content-between align-items-center p-2 mb-3 shadow-sm"
+              >
+                <a href="#" class="contacts-link">
+                  <div class="d-flex align-items-center p-2">
+                    <div class="contact-picture bg-secondary rounded-5"></div>
+                    <div
+                      class="d-flex flex-column contact-name_container my-auto p-3"
+                    >
+                      <p class="contact-name m-0">Champ Kind</p>
+                      <p class="contact-username text-secondary m-0">
+                        @SportcasterChamp
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <button class="contact-btn btn btn-primary btn-sm">
+                  Message
+                </button>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <section class="profile-post-section bg-light mx-auto p-3 my-4 shadow-lg">
+        <h2 class="mb-3">Posts</h2>
       </section>
     </main>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>

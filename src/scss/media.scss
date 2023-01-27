@@ -12,5 +12,10 @@
   .about,
   .contacts {
     width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .profile-flex {
+    flex-direction: column;
   }
 }
