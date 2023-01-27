@@ -1,7 +1,5 @@
 @import "main";
 
-$main-section-width: 954px;
-
 .profile-nav {
   max-width: $main-section-width;
 }
@@ -73,7 +71,7 @@ $main-section-width: 954px;
 }
 
 .contact {
-  border: 2px solid $body-bg;
+  border: $border;
 }
 
 .view-more {
@@ -81,5 +79,30 @@ $main-section-width: 954px;
 }
 
 .profile-post-section {
-  width: $main-section-width;
+  max-width: $main-section-width;
+}
+
+.post-message {
+  max-width: 750px;
+}
+
+.post-input-message {
+  border: none;
+  background-color: $body-bg;
+  width: 90%;
+}
+
+.message-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.messages {
+  background-color: $body-bg;
+  border: $border;
+  max-width: 750px;
+}
+
+.message-nav-btn {
+  width: 50%;
 }

@@ -19,8 +19,6 @@ $nav-bg-color: #000000;
 $nav-text-color: #ffffff;
 $navbar-light-color: #02d086;
 
-//Spacing
-
 //Elements
 h1,
 h2,
@@ -39,4 +37,6 @@ input {
 //Link styles
 $link-decoration: none;
 
-//btn
+//Spacing
+$main-section-width: 954px;
+$border: 2px solid $body-bg;

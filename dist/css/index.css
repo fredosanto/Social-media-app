@@ -10829,4 +10829,42 @@ nav {
   max-width: 500px;
 }
 
+.profile-nav {
+  max-width: 954px;
+}
+
+.profile-post-section {
+  max-width: 954px;
+}
+
+.post-message {
+  max-width: 750px;
+}
+
+.post-input-message {
+  border: none;
+  background-color: #f0f0f0;
+  width: 90%;
+}
+
+.message-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.messages {
+  background-color: #f0f0f0;
+  border: 2px solid #f0f0f0;
+  max-width: 750px;
+}
+
+.message-nav-btn {
+  width: 50%;
+}
+
+.contact-picture {
+  width: 50px;
+  height: 50px;
+}
+
 /*# sourceMappingURL=index.css.map */
