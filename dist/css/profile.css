@@ -16,6 +16,10 @@ input {
   font-family: "Comfortaa";
 }
 
+p {
+  font-size: 1rem;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -3582,6 +3586,7 @@ textarea.form-control-lg {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-size: calc(1.275rem + 0.3vw);
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
@@ -3591,6 +3596,11 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+@media (min-width: 1200px) {
+  .nav {
+    --bs-nav-link-font-size: 1.5rem;
+  }
 }
 
 .nav-link {
@@ -3754,6 +3764,7 @@ textarea.form-control-lg {
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-size: calc(1.275rem + 0.3vw);
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
@@ -3763,6 +3774,11 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+@media (min-width: 1200px) {
+  .navbar-nav {
+    --bs-nav-link-font-size: 1.5rem;
+  }
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
@@ -10790,18 +10806,8 @@ body {
   color: #ffffff;
 }
 
-nav {
-  width: 100%;
-  margin: 0;
-}
-
-.navigation {
-  width: 100%;
-}
-
 .nav-link {
   color: #02d086;
-  text-transform: uppercase;
   font-family: "Secular One";
   font-size: 1.5rem;
 }
@@ -10809,33 +10815,57 @@ nav {
   color: #ffffff;
 }
 
-.onpage {
-  text-decoration: underline;
-}
-
 .logo {
   color: #02d086;
   font-family: "Righteous";
   font-size: 3rem;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 .logo:hover {
-  color: #ffffff;
+  color: #02d086;
 }
 
 .search-field {
-  width: 50%;
   max-width: 500px;
 }
 
-.profile-nav {
+.section-nav {
   max-width: 954px;
+}
+
+.profile-post-section {
+  max-width: 954px;
+}
+
+.post-message {
+  max-width: 750px;
+}
+
+.post-input-message {
+  background-color: #f0f0f0;
+  width: 90%;
+}
+
+.messages {
+  background-color: #f0f0f0;
+  border: 2px solid #f0f0f0;
+  max-width: 750px;
+}
+
+.contact-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-name {
+  font-family: "Secular One";
+}
+
+.contact-username {
+  font-size: 0.75rem;
 }
 
 .profile-header {
   max-width: 954px;
-  text-align: center;
 }
 
 .profile-picture {
@@ -10845,7 +10875,7 @@ nav {
 
 .profile-name {
   font-family: "Secular One";
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 .profile-username {
@@ -10871,27 +10901,11 @@ nav {
 
 .bi {
   color: #aaaaaa;
-  display: inline-block;
   font-size: 25px;
 }
 
 .contacts-link {
   color: #000000;
-}
-
-.contact-picture {
-  width: 50px;
-  height: 50px;
-}
-
-.contact-name {
-  font-family: "Secular One";
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.contact-username {
-  font-size: 0.75rem;
 }
 
 .contact-btn {
@@ -10900,39 +10914,6 @@ nav {
 
 .contact {
   border: 2px solid #f0f0f0;
-}
-
-.view-more {
-  display: block;
-}
-
-.profile-post-section {
-  max-width: 954px;
-}
-
-.post-message {
-  max-width: 750px;
-}
-
-.post-input-message {
-  border: none;
-  background-color: #f0f0f0;
-  width: 90%;
-}
-
-.message-picture {
-  width: 50px;
-  height: 50px;
-}
-
-.messages {
-  background-color: #f0f0f0;
-  border: 2px solid #f0f0f0;
-  max-width: 750px;
-}
-
-.message-nav-btn {
-  width: 50%;
 }
 
 /*# sourceMappingURL=profile.css.map */

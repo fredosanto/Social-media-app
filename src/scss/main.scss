@@ -9,45 +9,62 @@ body {
   color: $nav-text-color;
 }
 
-nav {
-  //   background-color: $nav-bg-color;
-  //   color: $nav-link-color;
-  width: 100%;
-  margin: 0;
-}
-
-.navigation {
-  width: 100%;
-}
-
 .nav-link {
   color: $primary;
-  text-transform: uppercase;
   font-family: $header-font;
-  font-size: 1.5rem;
+  font-size: $nav-link-font-size;
 
   &:hover {
     color: $nav-text-color;
   }
-}
-
-.onpage {
-  text-decoration: underline;
 }
 
 .logo {
   color: $primary;
   font-family: $logo-font;
-  font-size: 3rem;
-  text-decoration: none;
-  text-transform: uppercase;
+  font-size: $logo-font-size;
 
   &:hover {
-    color: $nav-text-color;
+    color: $primary;
   }
 }
 
 .search-field {
-  width: 50%;
   max-width: 500px;
+}
+
+//Sections
+.section-nav {
+  max-width: $main-section-width;
+}
+
+.profile-post-section {
+  max-width: $main-section-width;
+}
+
+.post-message {
+  max-width: $message-max-width;
+}
+
+.post-input-message {
+  background-color: $body-bg;
+  width: 90%;
+}
+
+.messages {
+  background-color: $body-bg;
+  border: $border;
+  max-width: $message-max-width;
+}
+
+.contact-picture {
+  @include contact-picture(50px, 50px);
+}
+
+.contact-name {
+  font-family: $header-font;
+}
+
+.contact-username {
+  font-size: $username-font-size;
 }

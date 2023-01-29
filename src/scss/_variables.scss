@@ -13,6 +13,12 @@ $header-font: "Secular One";
 
 $input-btn-font-family: $header-font;
 $input-font-family: $main-font;
+$nav-link-font-size: 1.5rem;
+$username-font-size: 0.75rem;
+$main-font-size: 1rem;
+$header-font-size: 2rem;
+$secondary-header-font-size: 1.5rem;
+$logo-font-size: 3rem;
 
 //Nav
 $nav-bg-color: #000000;
@@ -34,9 +40,20 @@ input {
   font-family: $main-font;
 }
 
+p {
+  font-size: $main-font-size;
+}
+
 //Link styles
 $link-decoration: none;
 
-//Spacing
+//Spacing and width
 $main-section-width: 954px;
+$message-max-width: 750px;
 $border: 2px solid $body-bg;
+
+//Picture rounded
+@mixin contact-picture($picture-width, $picture-height) {
+  width: $picture-width;
+  height: $picture-height;
+}
