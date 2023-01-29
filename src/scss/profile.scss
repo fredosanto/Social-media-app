@@ -1,27 +1,21 @@
 @import "main";
 
-.profile-nav {
-  max-width: $main-section-width;
-}
-
 .profile-header {
   max-width: $main-section-width;
-  text-align: center;
 }
 
 .profile-picture {
-  width: 250px;
-  height: 250px;
+  @include contact-picture(250px, 250px);
 }
 
 .profile-name {
   font-family: $header-font;
-  font-size: 2.25rem;
+  font-size: $header-font-size;
 }
 
 .profile-username {
   font-family: $main-font;
-  font-size: 1.5rem;
+  font-size: $secondary-header-font-size;
 }
 
 ///Section
@@ -38,32 +32,16 @@
 
 .about h2,
 .contacts h2 {
-  font-size: 1.5rem;
+  font-size: $secondary-header-font-size;
 }
 
 .bi {
   color: $secondary;
-  display: inline-block;
   font-size: 25px;
 }
 
 .contacts-link {
   color: $main-text-color;
-}
-
-.contact-picture {
-  width: 50px;
-  height: 50px;
-}
-
-.contact-name {
-  font-family: $header-font;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.contact-username {
-  font-size: 0.75rem;
 }
 
 .contact-btn {
@@ -72,37 +50,4 @@
 
 .contact {
   border: $border;
-}
-
-.view-more {
-  display: block;
-}
-
-.profile-post-section {
-  max-width: $main-section-width;
-}
-
-.post-message {
-  max-width: 750px;
-}
-
-.post-input-message {
-  border: none;
-  background-color: $body-bg;
-  width: 90%;
-}
-
-.message-picture {
-  width: 50px;
-  height: 50px;
-}
-
-.messages {
-  background-color: $body-bg;
-  border: $border;
-  max-width: 750px;
-}
-
-.message-nav-btn {
-  width: 50%;
 }

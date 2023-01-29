@@ -21,10 +21,14 @@
   </head>
   <body class="body-bg">
     <header class="bg-black">
-      <nav class="navbar navbar-expand-md p-4 w-100">
+      <nav class="navbar navbar-expand-md p-4 w-100 m-0">
         <div class="container-fluid d-flex justify-content-between">
-          <a href="/dist/index.html" class="logo navbar-brand">Logo</a>
-          <form role="search" class="search-field">
+          <a
+            href="/dist/index.html"
+            class="logo navbar-brand text-uppercase text-decoration-none"
+            >Logo</a
+          >
+          <form role="search" class="search-field w-50">
             <input
               type="search"
               class="form-control me-2 rounded-5 bg-light"
@@ -50,15 +54,21 @@
             >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a href="/dist/index.html" class="nav-link">Home</a>
+                  <a href="/dist/index.html" class="nav-link text-uppercase"
+                    >Home</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a href="/dist/profile.html" class="nav-link onpage"
+                  <a
+                    href="/dist/profile.html"
+                    class="nav-link text-uppercase text-decoration-underline"
                     >Profile</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="/dist/login.html" class="nav-link">Logout</a>
+                  <a href="/dist/login.html" class="nav-link text-uppercase"
+                    >Logout</a
+                  >
                 </li>
               </ul>
             </div>
@@ -68,7 +78,7 @@
     </header>
     <main class="text-center mt-5">
       <div
-        class="profile-nav d-flex m-auto justify-content-between align-items-center"
+        class="section-nav d-flex m-auto justify-content-between align-items-center"
       >
         <div class="flex-">
           <h1 class="">Profile</h1>
@@ -98,23 +108,23 @@
               <button class="btn btn-secondary">Edit</button>
             </div>
             <div class="d-flex align-items-center">
-              <i class="bi bi-house-fill mb-3"></i>
+              <i class="bi bi-house-fill mb-3 d-inline-block"></i>
               <p class="ps-3">Oslo, Norway</p>
             </div>
             <div class="d-flex align-items-center">
-              <i class="bi bi-briefcase-fill mb-3"></i>
+              <i class="bi bi-briefcase-fill mb-3 d-inline-block"></i>
               <p class="ps-3">Weatherman</p>
             </div>
             <div class="d-flex align-items-center">
-              <i class="bi bi-mortarboard-fill mb-3"></i>
+              <i class="bi bi-mortarboard-fill mb-3 d-inline-block"></i>
               <p class="ps-3">-</p>
             </div>
             <div class="d-flex align-items-center">
-              <i class="bi bi-envelope-at-fill mb-3"></i>
+              <i class="bi bi-envelope-at-fill mb-3 d-inline-block"></i>
               <p class="ps-3">bricktamland@anchorman.com</p>
             </div>
             <div class="d-flex align-items-center">
-              <i class="bi bi-globe mb-3"></i>
+              <i class="bi bi-globe mb-3 d-inline-block"></i>
               <p class="ps-3">-</p>
             </div>
           </div>
@@ -134,7 +144,9 @@
                     <div
                       class="d-flex flex-column contact-name_container my-auto p-3"
                     >
-                      <p class="contact-name m-0">Ron Burgundy</p>
+                      <p class="contact-name m-0 text-decoration-none">
+                        Ron Burgundy
+                      </p>
                       <p class="contact-username text-secondary m-0">
                         @RonTheAnchorman
                       </p>
@@ -158,7 +170,9 @@
                     <div
                       class="d-flex flex-column contact-name_container my-auto p-3"
                     >
-                      <p class="contact-name m-0">Brian Fantana</p>
+                      <p class="contact-name m-0 text-decoration-none">
+                        Brian Fantana
+                      </p>
                       <p class="contact-username text-secondary m-0">
                         @brianAlsoAnchorman
                       </p>
@@ -182,7 +196,9 @@
                     <div
                       class="d-flex flex-column contact-name_container my-auto p-3"
                     >
-                      <p class="contact-name m-0">Champ Kind</p>
+                      <p class="contact-name m-0 text-decoration-none">
+                        Champ Kind
+                      </p>
                       <p class="contact-username text-secondary m-0">
                         @SportcasterChamp
                       </p>
@@ -195,7 +211,7 @@
               </div>
             </div>
             <div>
-              <a href="#" class="view-more text-center m-auto p-2">View more</a>
+              <a href="#" class="text-center m-auto p-2 d-block">View more</a>
             </div>
           </div>
         </div>
@@ -215,7 +231,7 @@
             name="post-message"
             id="post-message"
             placeholder="Add message"
-            class="post-input-message p-3 ms-3 rounded-5"
+            class="post-input-message p-3 ms-3 rounded-5 border-0"
           />
         </div>
         <div class="messages bg-light mx-auto my-5 p-3 shadow-lg">
@@ -226,7 +242,7 @@
               alt=""
             />
             <div class="text-start m-2">
-              <p class="contact-name m-0">Ron Burgundy</p>
+              <p class="contact-name m-0 text-decoration-none">Ron Burgundy</p>
               <p class="contact-username text-secondary m-0">
                 @RonTheAnchorman
               </p>
@@ -240,12 +256,8 @@
           <div
             class="d-flex message-nav justify-content-center align-items-center"
           >
-            <button class="btn message-nav-btn btn-primary rounded-5 m-3">
-              Comment
-            </button>
-            <button class="btn message-nav-btn btn-info rounded-5 m-3">
-              Like
-            </button>
+            <button class="btn w-50 btn-primary rounded-5 m-3">Comment</button>
+            <button class="btn w-50 btn-info rounded-5 m-3">Like</button>
           </div>
         </div>
         <div class="messages bg-light mx-auto my-5 p-3 shadow-lg">
@@ -256,7 +268,7 @@
               alt=""
             />
             <div class="text-start m-2">
-              <p class="contact-name m-0">Brian Fantana</p>
+              <p class="contact-name m-0 text-decoration-none">Brian Fantana</p>
               <p class="contact-username text-secondary m-0">
                 @brianAlsoAnchorman
               </p>
@@ -271,12 +283,8 @@
           <div
             class="d-flex message-nav justify-content-center align-items-center"
           >
-            <button class="btn message-nav-btn btn-primary rounded-5 m-3">
-              Comment
-            </button>
-            <button class="btn message-nav-btn btn-info rounded-5 m-3">
-              Like
-            </button>
+            <button class="btn w-50 btn-primary rounded-5 m-3">Comment</button>
+            <button class="btn w-50 btn-info rounded-5 m-3">Like</button>
           </div>
         </div>
         <div class="messages bg-light mx-auto my-5 p-3 shadow-lg">
@@ -287,7 +295,7 @@
               alt=""
             />
             <div class="text-start m-2">
-              <p class="contact-name m-0">Ron Burgundy</p>
+              <p class="contact-name m-0 text-decoration-none">Ron Burgundy</p>
               <p class="contact-username text-secondary m-0">
                 @RonTheAnchorman
               </p>
@@ -304,12 +312,8 @@
           <div
             class="d-flex message-nav justify-content-center align-items-center"
           >
-            <button class="btn message-nav-btn btn-primary rounded-5 m-3">
-              Comment
-            </button>
-            <button class="btn message-nav-btn btn-info rounded-5 m-3">
-              Like
-            </button>
+            <button class="btn w-50 btn-primary rounded-5 m-3">Comment</button>
+            <button class="btn w-50 btn-info rounded-5 m-3">Like</button>
           </div>
         </div>
       </section>
